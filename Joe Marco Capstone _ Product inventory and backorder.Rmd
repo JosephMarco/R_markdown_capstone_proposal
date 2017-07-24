@@ -1,7 +1,7 @@
 ---
 output:
-  html_document: default
   word_document: default
+  html_document: default
 ---
 ## Joe Marco - Springboard Capstone Project 2017 
 ![](https://dddhl3vz19llg.cloudfront.net/jnj_1.0.54_master/assets/jnj-og-logo.jpg)
@@ -42,11 +42,14 @@ knitr::opts_chunk$set(echo = TRUE)
 * Other models depending on complexity of the above
 
 ###What are your deliverables? Typically, this would include code, along with a paper and/or a slide deck.
-Deliverables  | 
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
 
 * R Markdown slideshow with end to end work
 * Includes intro to me, my background, my proposal, code throughout, did I answer any of the above questions, if so how? What was the business value? & A lessons learned
 * Potential website with R Markdown if I can figure out the html based configs in R Studio & Github.
+
+### Real World Value and Interpretation 
+These methodologies can be applied in the real world work environment, and at my current employment in numerous ways, a few are listed below:
+* Can I predict when raw materials are going to be at risk of backorder based off sales for product and demand of consumer?
+* Can i identify which of my suppliers may be consistently a "high risk" when it comes to providing materials or products late?
+* Is there a way to identify simply based off legacy product backorder information, which new products (based off inventory, lead time needed, source/suppliers) can be predicted to be at risk for a backorder issue?
+* Additional real world applications
